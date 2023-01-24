@@ -376,4 +376,9 @@ Experience Area Style
     z-index: -1;
 }
 }
+.pricing-heading {display:flex;}
+.pricing-heading h3.title {
+    padding-left: 10px;
+    line-height: 26px;
+}
 

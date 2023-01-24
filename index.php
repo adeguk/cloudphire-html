@@ -1,4 +1,4 @@
-﻿<?php include_once('inc\_header.php') ?>
+﻿<?php include_once('inc/_header.php') ?>
 
 <section id="below-header" data-track-name="below-header" data-track-index="3">
   <style>
@@ -463,7 +463,7 @@
   </div>
 </section>
 <!--SLider sec End-->
-<section class="bg-color--concrete" id="banner">
+<!--section-- class="bg-color--concrete" id="banner">
   <div class="owl-carousel banner--slider" data-carousel-autoplay="true" data-carousel-nav="false" data-carousel-dots="true" data-carousel-dots-container="#bannerSliderNav">
     <div class="banner--item">
       <div class="container">
@@ -581,13 +581,13 @@
       </li>
     </ul>
   </div>
-</section>
+</!--section-->
 
 <!-- ***** SLIDER ***** -->
-<section class="main-container slider">
+<!--section-- class="main-container slider">
   <div class="silder-container">
     <div class="carousel header-main-slider">
-      <!-- 1 Slider -->
+      <!-- 1 Slider -- >
       <div class="carousel-cell overlay">
         <div class="slider-content">
           <div class="container">
@@ -614,7 +614,7 @@
           </div>
         </div>
       </div>
-      <!-- 2 Slider -->
+      <!-- 2 Slider -- >
       <div class="carousel-cell overlay">
         <div class="slider-content">
           <div class="container ">
@@ -631,7 +631,7 @@
           <img src="assets/img/topbanner01.jpg" alt="Domains">
         </div>
       </div>
-      <!-- 3 Slider -->
+      <!-- 3 Slider -- >
       <div class="carousel-cell sec-bg6 bg-colorstyle">
         <div class="slider-content">
           <div class="container ">
@@ -645,7 +645,7 @@
           </div>
         </div>
       </div>
-      <!-- 4 Slider -->
+      <!-- 4 Slider -- >
       <div class="carousel-cell sec-bg6 bg-colorstyle">
         <div class="slider-content">
           <div class="container">
@@ -660,70 +660,93 @@
       </div>
     </div>
   </div>
-</section>
+</!--section-->
 
-<!-- ***** PRICING TABLES ***** -->
-<section class="pricing special sec-bg2 bg-colorstyle specialposition">
+<!-- ***** PRICING TABLES - CAROUSEL ***** -->
+<section class="slick sec-normal sec-bg31 bg-colorstyle1">
   <div class="container">
-    <div class="sec-up-slider nopadding">
-      <div class="row">
-        <div class="col-md-12 col-lg-4">
-          <div class="wrapper first noshadow">
-            <div class="top-content bg-seccolorstyle topradius">
-              <img class="svg mb-3" src="assets/fonts/svg/cloudfiber.svg" alt="">
-              <div class="title">Shared Hosting</div>
-              <div class="fromer seccolor">Starting at:</div>
-              <div class="price seccolor"><sup>$</sup>8.19 <span class="period">/month</span></div>
-              <a href="hosting.php" class="btn btn-default-yellow-fill">All plans</a>
-            </div>
-            <ul class="list-info">
-              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>250GB SSD</span></li>
-              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>1TB Bandwidth</span></li>
-              <li><i class="icon-emailopen"></i> <span class="c-purple">EMAIL</span><br> <span>120 Emails</span></li>
-              <li><i class="icon-domains"></i> <span class="c-purple">TLD</span><br> <span>30 Domains</span></li>
-            </ul>
+    <h2 class="section-heading text-white1 mergecolor">Popular Hosting Products</h2>
+  </div>
+  <div id="slider">
+    <div class="plan-container">
+      <div class="wrapper noshadow">
+        <div class="top-content bg-seccolorstyle">
+          <div class="plans badge feat bg-pink">Hosting</div>
+          <div class="pricing-heading">
+            <img class="svg mb-3" src="assets/fonts/svg/linuxserver.svg" alt="Shared hosting from £2.49">
+            <h3 class="title">Shared Hosting</h3>
           </div>
+          <div class="fromer seccolor">Starting at</div>
+          <div class="price mergecolor"><sup>£</sup>19.99 <span class="period">/mo</span></div>
+          <a href="" class="btn btn-default-yellow-fill">All Plans</a>
         </div>
-        <div class="col-md-12 col-lg-4">
-          <div class="wrapper noshadow">
-            <div class="plans badge feat bg-pink">recommended</div>
-            <div class="top-content bg-seccolorstyle topradius">
-              <img class="svg mb-3" src="assets/fonts/svg/dedicated.svg" alt="">
-              <div class="title">Dedicated Server</div>
-              <div class="fromer seccolor">annually get (20% discount)</div>
-              <div class="price seccolor"><sup>$</sup>82.00 <span class="period">/month</span></div>
-              <a href="configurator.php" class="btn btn-default-yellow-fill">Configure</a>
-            </div>
-            <ul class="list-info bg-purple">
-              <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4x 3.20Ghz 2 Cores</span></li>
-              <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>16GB (up to 32GB)</span></li>
-              <li><i class="icon-drivessd"></i> <span class="c-pink">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
-              <li><i class="icon-git"></i> <span class="c-pink">UPLINK</span><br> <span>1Gbps - 20TB</span></li>
-            </ul>
+        <ul class="list-info bg-pink">
+          <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 Cores</span></li>
+          <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2Gb Memory</span></li>
+          <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>Unlimited Space</span></li>
+          <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>Unlimited Bandwidth</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="plan-container">
+      <div class="wrapper bg-seccolorstyle noshadow">
+        <div class="top-content bg-seccolorstyle">
+          <div class="pricing-heading">
+            <img class="svg mb-3" src="assets/fonts/svg/dedicated.svg" alt="">
+            <h3 class="title">Dedicated Server</h3>
           </div>
+          <div class="fromer seccolor">windows</div>
+          <div class="price mergecolor"><sup>$</sup>185.00 <span class="period">/mo</span></div>
+          <a href="" class="btn btn-default-yellow-fill">Configure</a>
         </div>
-        <div class="col-md-12 col-lg-4">
-          <div class="wrapper third noshadow">
-            <div class="top-content bg-seccolorstyle topradius">
-              <img class="svg mb-3" src="assets/fonts/svg/vps.svg" alt="">
-              <div class="title">Cloud VPS</div>
-              <div class="fromer seccolor">Starting at:</div>
-              <div class="price seccolor"><sup>$</sup>9.99 <span class="period">/month</span></div>
-              <a href="vps.php" class="btn btn-default-yellow-fill">All plans</a>
-            </div>
-            <ul class="list-info">
-              <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 Cores</span></li>
-              <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2GB Memory</span></li>
-              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>20GB SSD Space</span></li>
-              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>1TB Bandwidth</span></li>
-            </ul>
+        <ul class="list-info bg-purple">
+          <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4x 3.20Ghz 2 Cores</span></li>
+          <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+          <li><i class="icon-drivessd"></i> <span class="c-pink">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
+          <li><i class="icon-git"></i> <span class="c-pink">UPLINK</span><br> <span>1Gbps - 20TB</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="plan-container">
+      <div class="wrapper bg-seccolorstyle noshadow">
+        <div class="top-content bg-seccolorstyle">
+          <div class="pricing-heading">
+            <img class="svg mb-3" src="assets/fonts/svg/cloudfiber.svg" alt="">
+            <h3 class="title">Cloud Hosting</h3>
           </div>
+          <div class="fromer seccolor">Starting from</div>
+          <div class="price mergecolor"><sup>$</sup>24.99 <span class="period">/mo</span></div>
+          <a href="" class="btn btn-default-yellow-fill">Order now</a>
         </div>
+        <ul class="list-info bg-pink">
+          <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>250GB SSD</span></li>
+          <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>1TB Bandwidth</span></li>
+          <li><i class="icon-emailopen"></i> <span class="c-purple">EMAIL</span><br> <span>120 Emails</span></li>
+          <li><i class="icon-domains"></i> <span class="c-purple">TLD</span><br> <span>30 Domains</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="plan-container">
+      <div class="wrapper bg-seccolorstyle noshadow">
+        <div class="top-content bg-seccolorstyle">
+          <div class="pricing-heading">
+            <img class="svg mb-3" src="assets/fonts/svg/security.svg" height="65" alt="">
+            <h3 class="title">SSL Certificate</h3>
+          </div>
+          <div class="fromer seccolor">Starting from</div>
+          <div class="price mergecolor"><sup>$</sup>36.90 <span class="period">/mo</span></div>
+          <a href="" class="btn btn-default-yellow-fill">Order now</a>
+        </div>
+        <ul class="list-info bg-purple">
+          <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>250GB SSD</span></li>
+          <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>1TB Bandwidth</span></li>
+          <li><i class="icon-emailopen"></i> <span class="c-pink">EMAIL</span><br> <span>120 Emails</span></li>
+          <li><i class="icon-domains"></i> <span class="c-pink">TLD</span><br> <span>30 Domains</span></li>
+        </ul>
       </div>
     </div>
   </div>
 </section>
-<img class="blobleft svg d-none" src="assets/img/background/blob.svg" alt="Blob Background">
 
 <!-- Start Experience Area -->
 <section class="experience-area pt-10">
@@ -841,11 +864,11 @@
 <section class="balancing sec-normal bg-colorstyle">
   <div class="h-services">
     <div class="container">
-      <div class="randomline">
+      <!--div class="randomline">
         <div class="bigline"></div>
         <div class="smallline"></div>
-      </div>
-      <div class="row">
+      </!--div>
+      <div-- class="row">
         <div class="col-md-12 text-center">
           <h2 class="section-heading whitecolor mergecolor">Cloud Load Balancing</h2>
           <p class="section-subheading whitecolor mergecolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -869,7 +892,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div-->
     </div>
   </div>
 </section>
@@ -932,13 +955,13 @@
       <div class="row">
         <div class="col-sm-12 text-center">
           <h2 class="section-heading text-white mergecolor">Our Datacenters all across the world</h2>
-          <p class="section-subheading text-muted mergecolor"><span class="golink">Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit sed, do eiusmod tempor <span class="c-pink">incididunt lorem ipsum</span> dolor sit amet</p>
+          <p class="section-subheading text-muted mergecolor">We have pioneered the concept of a Globally distributed Datacenter. Our Datacenter is a globally distributed collection of redundant
+            server infrastructure which hosts all our Products and Services.</p>
         </div>
         <div class="col-md-12 col-lg-7 pt-5 scrollme position-relative">
           <img src="assets/patterns/map.svg" class="lazyload w-10 animateme" alt="Load Balancing" data-when="view" data-from="1" data-to="0" data-opacity="0">
           <span class="datacenters montreal" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="Montreal" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
           <span class="datacenters newyork" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="New York" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-          <span class="datacenters portugal" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="Portugal" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
           <span class="datacenters london" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="London" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
           <span class="datacenters moskow" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="Moskow" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
           <span class="datacenters hongkong" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="Hong Kong" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
@@ -948,9 +971,9 @@
         <div class="col-sm-12 col-md-12 col-lg-4 pt-5 text-start">
           <div class="mb-5 agpanel pt-3 ps-0">
             <h4 class="text-white mb-4 mergecolor"><b>Global Datacenters</b></h4>
-            <p class="lh-32 text-muted seccolor">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa <span class="c-pink">doloremque laudantium,</span> totam rem aperiam, eaque.</p>
-            <p class="f-15 lh-32 text-muted seccolor">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
-            <a href="#" class="btn btn-default-grad-purple-fill mt-3">Datacenter</a>
+            <p class="lh-32 text-muted seccolor">Our Datacenter consists of servers distributed across various Datacenters worldwide.
+              Click the button below to learn more about what most of these datacentres have certain common...</p>
+            <a href="#" class="btn btn-default-grad-purple-fill mt-3">Datacentre</a>
           </div>
         </div>
       </div>
@@ -1047,4 +1070,4 @@
   </div>
 </section>
 
-<?php include_once('inc\_footer.php') ?>
+<?php include_once('inc/_footer.php') ?>
