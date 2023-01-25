@@ -755,8 +755,8 @@
       <div class="row align-items-center">
         <div class="col-lg-8">
           <div class="section-title">
-            <span>Experience</span>
-            <h2>We're Ready To Share Our Advice And Experience</h2>
+            <span>Wide Product Range</span>
+            <h2>...to meet all the needs of web designers, corporate companies & e-commerce sites</h2>
           </div>
         </div>
 
@@ -770,10 +770,10 @@
         <div class="col-lg-3 col-sm-6 p-0">
           <div class="single-experience">
             <i class="flaticon-share"></i>
-            <h3>Network Connector For Business</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
+            <h3><a href="#" class="read-more">WordPress Hosting</a></h3>
+            <p href="#" class="read-more">
+              Take advantage of our purpose build hosting plans built for security, speed, and scalability.
+            </p>
             <span class="flaticon-share"></span>
           </div>
         </div>
@@ -781,21 +781,32 @@
         <div class="col-lg-3 col-sm-6 p-0">
           <div class="single-experience">
             <i class="flaticon-progress"></i>
-            <h3>Business Growth Management</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
+            <h3><a href="#" class="read-more">Shared Hosting</a></h3>
+            <p href="#" class="read-more">
+              Get the best Linux Shared Hosting plans for business from the best web hosting services.
+            </p>
             <span class="flaticon-progress"></span>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 p-0">
           <div class="single-experience">
+            <i class="flaticon-portfolio"></i>
+            <h3><a href="#" class="read-more">VPS Server</a></h3>
+            <p href="#" class="read-more">
+              Ensure Virtual Private Server with Full Root Access by Opting for Our VPS Server Hosting
+            </p>
+            <span class="flaticon-portfolio"></span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 p-0">
+          <div class="single-experience">
             <i class="flaticon-energy"></i>
-            <h3>The Energy-Saving Strategy</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
+            <h3><a href="#" class="read-more">Personalised Email</a></h3>
+            <p href="#" class="read-more">
+              Enjoy abundant storage, share business resources and access email from any device.
+            </p>
             <span class="flaticon-energy"></span>
           </div>
         </div>
@@ -803,54 +814,43 @@
         <div class="col-lg-3 col-sm-6 p-0">
           <div class="single-experience">
             <i class="flaticon-market"></i>
-            <h3>Capital Management Support</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
+            <h3><a href="#" class="read-more">Cloud Hosting</a></h3>
+            <p href="#" class="read-more">
+              Enjoy Lighting Fast Website Speed with our Fully Managed Cloud Hosting Services.
+            </p>
             <span class="flaticon-market"></span>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 p-0">
           <div class="single-experience">
-            <i class="flaticon-portfolio"></i>
-            <h3>Tax Support Team Consulting</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
-            <span class="flaticon-portfolio"></span>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6 p-0">
-          <div class="single-experience">
-            <i class="flaticon-umbrella"></i>
-            <h3>Insurance Consulting Support</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
-            <span class="flaticon-umbrella"></span>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6 p-0">
-          <div class="single-experience">
             <i class="flaticon-goal"></i>
-            <h3>Target Fulfillment Strategy</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
+            <h3><a href="#" class="read-more">Comodo SSL Certificate</a></h3>
+            <p href="#" class="read-more">
+              Protect your customer's confidential data with state-of-the-art data encryption.
+            </p>
             <span class="flaticon-goal"></span>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 p-0">
           <div class="single-experience">
+            <i class="flaticon-umbrella"></i>
+            <h3><a href="#" class="read-more">Cyber Backup</a></h3>
+            <p href="#" class="read-more">
+              Keep Your Data Safe on the Cloud - One-click setup & Simplified Pricing.
+            </p>
+            <span class="flaticon-umbrella"></span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 p-0">
+          <div class="single-experience">
             <i class="flaticon-worker"></i>
-            <h3>Brand Management Support</h3>
-            <a href="#" class="read-more">
-              Learn More
-            </a>
+            <h3><a href="#" class="read-more">Web Security</a></h3>
+            <p href="#" class="read-more">
+              Not only protecting the website, this service will also fix all vulnerable points.
+            </p>
             <span class="flaticon-worker"></span>
           </div>
         </div>
@@ -908,18 +908,18 @@
     <div class="service-wrap">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h2 class="section-heading">Why Choose Antler?</h2>
-          <p class="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <h2 class="section-heading">Why Choose CloudPhire?</h2>
+          <p class="section-subheading">We understand the challenges of running a business and maintaining your online presence; that is why we stand right behind you, 
+            doing the heavy-lifting so you can run your business like a pro!</p>
         </div>
         <div class="col-md-12 col-lg-4 wow animated fadeInUp fast">
           <div class="service-section bg-colorstyle noshadow">
-            <div class="plans badge feat bg-pink">Premium</div>
             <img class="svg" src="assets/fonts/svg/helpdesk.svg" alt="">
             <div class="title mergecolor">Support 24x7x365</div>
             <p class="subtitle seccolor">
-              Excepteur sint occaecat cupidatat non proident voluptate
+              Our Support Squad boasts of a strong team to provide assistance and guidance round the clock
             </p>
-            <a href="" class="btn btn-default-yellow-fill">Read more</a>
+            <!--a-- href="" class="btn btn-default-yellow-fill">Read more</!--a-->
           </div>
         </div>
         <div class="col-md-12 col-lg-4 wow animated fadeInUp">
@@ -928,9 +928,9 @@
             <img class="svg" src="assets/fonts/svg/window.svg" alt="">
             <div class="title mergecolor">Free WHM &amp; cPanel</div>
             <p class="subtitle seccolor">
-              Excepteur sint occaecat cupidatat non proident dolor
+              Install, integrate, manage and sell through leading hosting billing platforms
             </p>
-            <a href="" class="btn btn-default-yellow-fill">Read more</a>
+            <!--a-- href="" class="btn btn-default-yellow-fill">Read more</!--a-->
           </div>
         </div>
         <div class="col-md-12 col-lg-4 wow animated fadeInUp fast">
@@ -938,9 +938,9 @@
             <img class="svg" src="assets/fonts/svg/cloudmanaged.svg" alt="">
             <div class="title mergecolor">Perfomance Optimized</div>
             <p class="subtitle seccolor">
-              Excepteur sint occaecat cupidatat non proident voluptate
+              With our ultra-modern infrastruture, you get to experience 99.99% uptime, regardless of the plan
             </p>
-            <a href="" class="btn btn-default-yellow-fill">Read more</a>
+            <!--a-- href="" class="btn btn-default-yellow-fill">Read more</!--a-->
           </div>
         </div>
       </div>
@@ -995,7 +995,7 @@
               <div class="swiper-container main-slider" data-autoplay="4000" data-touch="1" data-mouse="0" data-slides-per-view="responsive" data-loop="1" data-speed="1200" data-mode="horizontal" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="1">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <h3 class="author">Everth Group</h3>
+                    <h3 class="author">Africa Properties TV</h3>
                     <div class="content-info">
                       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
                       <div class="mb-3"> Michael Jones - Executive Director</div>
@@ -1003,7 +1003,7 @@
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <h3 class="author">Growtop Company</h3>
+                    <h3 class="author">Farmsoc Initiatives</h3>
                     <div class="content-info">
                       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore.</p>
                       <div class="mb-3"> Matt Radford - President &amp; Managing Director</div>
@@ -1030,11 +1030,11 @@
           <div class="help-container bg-seccolorstyle noshadow">
             <a href="javascript:void(Tawk_API.toggle())" class="help-item">
               <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/livechat.svg" height="65" alt="">
+                <img class="svg ico" src="assets/fonts/svg/livechat.svg" height="65" alt="Live Chat">
               </div>
               <div class="inform">
                 <div class="title mergecolor">Live Chat</div>
-                <div class="description seccolor">Lorem Ipsum is simply dummy text printing.</div>
+                <div class="description seccolor">Get the benefits of 24x7 support from our team of experts.</div>
               </div>
             </a>
           </div>
@@ -1043,11 +1043,11 @@
           <div class="help-container bg-seccolorstyle noshadow">
             <a href="contact.php" class="help-item">
               <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/emailopen.svg" height="65" alt="">
+                <img class="svg ico" src="assets/fonts/svg/emailopen.svg" height="65" alt="Send Ticket">
               </div>
               <div class="inform">
                 <div class="title mergecolor">Send Ticket</div>
-                <div class="description seccolor">Lorem Ipsum is simply dummy text printing.</div>
+                <div class="description seccolor">Write to us with your queries through the panel.</div>
               </div>
             </a>
           </div>
@@ -1056,11 +1056,11 @@
           <div class="help-container bg-seccolorstyle noshadow">
             <a href="knowledgebase-list.php" class="help-item">
               <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/book.svg" height="65" alt="">
+                <img class="svg ico" src="assets/fonts/svg/book.svg" height="65" alt="Knowledge base">
               </div>
               <div class="inform">
                 <div class="title mergecolor">Knowledge base</div>
-                <div class="description seccolor">Lorem Ipsum is simply dummy text printing.</div>
+                <div class="description seccolor">Get answers instantly by looking through our knowledge base.</div>
               </div>
             </a>
           </div>

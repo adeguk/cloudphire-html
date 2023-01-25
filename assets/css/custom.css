@@ -249,12 +249,12 @@ Experience Area Style
     margin-bottom: -45px;
 }
 .section-title h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
     font-weight: 700;
     position: relative;
     display: block;
-    text-transform: capitalize;
+    padding-left: 20px;
 }
 .section-title h2:last-child {margin-bottom: 0;}
 .experience-area {
@@ -288,7 +288,7 @@ Experience Area Style
 }
 .experience-area .section-title h2 {  color: #ffffff;}
 .experience-area .experience-wrap {
-  background-color: #239f30;
+  background-color: #238c2e;
   padding: 50px;
   position: relative;
   z-index: 1;
@@ -300,7 +300,7 @@ Experience Area Style
   right: -500px;
   width: 700px;
   height: 100%;
-  background-color: #239f30;
+  background-color: #238c2e;
   z-index: -1;
 }
 .experience-area .experience-wrap .row {padding-left: 15px;  padding-right: 15px;}
@@ -309,8 +309,8 @@ Experience Area Style
 .experience-area .col-lg-3:nth-child(8) .single-experience {border-right: none;  border-bottom: none;}
 .experience-area .default-btn {float: right;}
 .single-experience {
-  border-right: 1px solid #238c2e;
-  border-bottom: 1px solid #238c2e;
+  border-right: 1px solid #0f743d;
+  border-bottom: 1px solid #0f743d;
   padding: 30px;
   position: relative;
   -webkit-transition: all 0.5s;
@@ -332,16 +332,8 @@ Experience Area Style
 }
 .single-experience .read-more {color: #ffffff;}
 .single-experience span {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 100px;
-  color: #3e4249;
-  z-index: -1;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  position: absolute;top: 0;right: 0;font-size: 100px;color: #3e4249;z-index: -1;
+  -webkit-transform: scale(0);transform: scale(0);-webkit-transition: all 0.5s;transition: all 0.5s;
   line-height: 1;
 }
 .single-experience:hover {background-color: #1f242c;}
@@ -352,33 +344,12 @@ Experience Area Style
 .experience-area .experience-wrap {padding: 15px;}
 .section-title {margin: 0px auto 30px;text-align: center!important;}
 .section-title span {font-size: 30px;margin-bottom: -20px;}
-.section-title h2 {font-size: 25px;}
+.section-title h2 {font-size: 25px;padding-left:0}
 .single-experience {border-right: none;}
 .experience-area::before,.experience-area .experience-wrap::before {display: none;}
-.experience-area::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-color: #ffffff;
-    z-index: -1;
-}
-.experience-area .experience-wrap::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: -500px;
-    width: 700px;
-    height: 100%;
-    background-color: #239f30;
-    z-index: -1;
-}
+.experience-area::before {content: "";position: absolute;bottom: 0;left: 0;width: 100%;height: 100px; background-color: #ffffff;z-index: -1;}
+.experience-area .experience-wrap::before {content: "";position: absolute;bottom: 0;right: -500px;width: 700px;height: 100%;background-color: #239f30;z-index: -1;}
 }
 .pricing-heading {display:flex;}
-.pricing-heading h3.title {
-    padding-left: 10px;
-    line-height: 26px;
-}
+.pricing-heading h3.title {padding-left: 10px;line-height: 26px;}
 
