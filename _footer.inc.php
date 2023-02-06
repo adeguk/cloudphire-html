@@ -1,4 +1,4 @@
-﻿<!-- ***** FOOTER ****** -->
+<!-- ***** FOOTER ****** -->
 <footer class="footer">
   <div class="container">
     <div class="footer-top">

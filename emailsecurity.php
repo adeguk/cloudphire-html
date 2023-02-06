@@ -1,4 +1,11 @@
-﻿<?php include_once('inc\_header.php') ?>
+﻿<?php
+$extraCss = [
+  //'<link href="https://cdn.rankon.co.uk/css/magnific-popup.css" rel="stylesheet">',
+  //'<link href="https://cdn.rankon.co.uk/css/filter.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/animate.min.css" rel="stylesheet">'
+];
+include_once('inc/_header.php');
+?>
 
 <!-- ***** BANNER ***** -->
 <div class="top-header overlay-video">
@@ -20,6 +27,7 @@
     </div>
   </div>
 </div>
+
 <!-- ***** PRICING TABLES ***** -->
 <section class="pricing special sec-up-slider nobottompadding bg-colorstyle specialposition">
   <div class="container">
@@ -80,6 +88,7 @@
   </div>
 </section>
 <img class="blobleft svg d-none" src="assets/img/background/blob.svg" alt="Blob Background">
+
 <!-- ***** FEATURES ***** -->
 <section id="features" class="history-section sec-normal exapath bg-colorstyle">
   <div class="container">
@@ -124,6 +133,7 @@
   </div>
 </section>
 <hr class="fullline d-none">
+
 <!-- ***** CONTROL PANEL TOUR ***** -->
 <section class="sec-normal history-section custom sec-bg3 scrollme bg-colorstyle">
   <div class="container">
@@ -215,6 +225,7 @@
     </div>
   </div>
 </section>
+
 <!-- ***** FAQ ***** -->
 <section id="faq" class="sec-normal sec-bg2 bg-colorstyle bottomhalfpadding">
   <div class="faq">
@@ -316,6 +327,7 @@
     </div>
   </div>
 </section>
+
 <!-- ***** HELP ***** -->
 <section class="help pt-4 pb-80 notoppadding bg-colorstyle">
   <div class="container">
@@ -353,32 +365,8 @@
     </div>
   </div>
 </section>
-<!-- ***** UPLOADED FOOTER FROM FOOTER.php ***** -->
-<footer id="footer"> </footer>
-</div>
-<!-- ***** BUTTON GO TOP ***** -->
-<a href="#0" class="cd-top"> <i class="fas fa-angle-up"></i> </a>
-<!-- Javascript -->
-<script src="assets/js/jquery.min.js"></script>
-<script defer="" src="assets/js/popper.min.js"></script>
-<script defer="" src="assets/js/bootstrap.min.js"></script>
-<script defer="" src="assets/js/jquery.viewportchecker.min.js"></script>
-<script defer="" src="assets/js/jquery.countdown.js"></script>
-<script defer="" src="assets/js/jquery.magnific-popup.min.js"></script>
-<script defer="" src="assets/js/slick.min.js"></script>
-<script defer="" src="assets/js/flickity.pkgd.min.js"></script>
-<script defer="" src="assets/js/flickity-fade.min.js"></script>
-<script defer="" src="assets/js/aos.min.js"></script>
-<script defer="" src="assets/js/isotope.min.js"></script>
-<script defer="" src="assets/js/jquery.scrollme.min.js"></script>
-<script defer="" src="assets/js/swiper.min.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script>
-  new WOW().init();
-</script>
-<script async="" src="assets/js/lazysizes.min.js"></script>
-<script defer="" src="assets/js/scripts.min.js"></script>
-<script defer="" src="assets/js/settings-init.js"></script>
-</body>
 
-</html>
+<?php
+$extraJs = [];
+include_once('inc/_footer.php');
+?>

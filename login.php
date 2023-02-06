@@ -16,7 +16,9 @@
     <link href="assets/css/rtl/style-rtl.min.css" disabled="true" rel="stylesheet" class="rtl">
     <!-- CSS styles -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" class="ltr" onload="if(media!='all')media='all'">
+     
     <link href="assets/css/filter.css" rel="stylesheet">
+
     <link href="assets/css/style.min.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
   </head>

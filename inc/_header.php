@@ -7,27 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CloudPhire - Hosting Provider & Digital Agency</title>
     <meta name="description" content="">
-    <link href="assets/img/favicon.ico" rel="shortcut icon">
+    <link href="https://cdn.rankon.co.uk/img/favicon.ico" rel="shortcut icon">
     <!-- Fonts -->
-    <link href="assets/fonts/cloudicon/cloudicon.css" rel="stylesheet" onload="if(media!='all')media='all'">
-    <link href="assets/fonts/fontawesome/css/all.min.css" rel="stylesheet" onload="if(media!='all')media='all'">
-    <link href="assets/fonts/evafeat/evafeat.css" rel="stylesheet" onload="if(media!='all')media='all'">
-    <!-- RTL STYLES-->
-    <link href="assets/css/rtl/bootstrap-rtl.min.css" disabled="true" rel="stylesheet" class="rtl">
-    <link href="assets/css/rtl/style-rtl.min.css" disabled="true" rel="stylesheet" class="rtl">
+    <link href="https://cdn.rankon.co.uk/fonts/cloudicon/cloudicon.css" rel="stylesheet" onload="if(media!='all')media='all'">
+    <link href="https://cdn.rankon.co.uk/fonts/fontawesome/css/all.min.css" rel="stylesheet" onload="if(media!='all')media='all'">
+    <link href="https://cdn.rankon.co.uk/fonts/evafeat/evafeat.css" rel="stylesheet" onload="if(media!='all')media='all'">
     <!-- CSS Styles -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" class="ltr" onload="if(media!='all')media='all'">
-    <!-- Owl Carousel Min CSS -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link href="assets/css/flickity.min.css" rel="stylesheet" onload="if(media!='all')media='all'">
-    <link href="assets/css/aos.min.css" rel="stylesheet" onload="if(media!='all')media='all'">
-    <link href="assets/css/swiper.min.css" rel="stylesheet" onload="if(media!='all')media='all'">
-    <link href="assets/css/animate.min.css" rel="stylesheet" onload="if(media!='all')media='all'">
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <link href="assets/css/slick-theme.css" rel="stylesheet">
-    <link href="assets/css/style.min.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">
-    <link href="assets/css/gdpr-cookie.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <?php
+    if (is_array($extraCss) && count($extraCss) > 0) {
+        echo '<!-- Page-specific CSS Styles -->';
+        foreach ($extraCss as $css_item) {
+            echo $css_item;
+        }
+    }
+    ?>
+
+    <link href="https://cdn.rankon.co.uk/css/style.min.css" rel="stylesheet">
+    <link href="https://cdn.rankon.co.uk/css/custom.css" rel="stylesheet">
+    <link href="https://cdn.rankon.co.uk/css/gdpr-cookie.min.css" rel="stylesheet">
 </head>
 
 <body>

@@ -1,4 +1,15 @@
-﻿<?php include_once('inc/_header.php') ?>
+﻿<?php
+$extraCss = [
+  //'<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css" rel="stylesheet" integrity="sha512-wOFbhKjhJWoAjlnxMK+uNACGNi2xrcTarIBCLpktzzajCOfxCR4AnJcT9mBEiVTFWmthRvQHY23v4OhyY981Lg==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
+  //'<link href="https://cdn.rankon.co.uk/css/flickity.min.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/aos.min.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/swiper.min.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/animate.min.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/slick.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/slick-theme.css" rel="stylesheet">'
+];
+include_once('inc/_header.php');
+?>
 
 <section id="below-header" data-track-name="below-header" data-track-index="3">
   <style>
@@ -450,217 +461,18 @@
       </div>
       <div class="slider-img col-12 col-lg-6 wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
         <div class="img-slide">
-          <img src="assets/img/slide2.jpg">
+          <img src="https://cdn.rankon.co.uk/img/slide2.jpg">
         </div>
         <div class="img-slide">
-          <img src="assets/img/slide1.jpg">
+          <img src="https://cdn.rankon.co.uk/img/slide1.jpg">
         </div>
         <div class="img-slide">
-          <img src="assets/img/slide3.jpg">
+          <img src="https://cdn.rankon.co.uk/img/slide3.jpg">
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--SLider sec End-->
-<!--section-- class="bg-color--concrete" id="banner">
-  <div class="owl-carousel banner--slider" data-carousel-autoplay="true" data-carousel-nav="false" data-carousel-dots="true" data-carousel-dots-container="#bannerSliderNav">
-    <div class="banner--item">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 banner--img d-none d-sm-block">
-            <img class="svg custom-element-right" src="assets/patterns/rack.svg" alt="Hosting Package">
-          </div>
-          <div class="col-md-7 banner--content">
-            <h1 class="mergecolor" data-aos="fade-up" data-aos-duration="800">Hosting <br>Package</h1>
-            <p class="text-break seccolor" data-aos="fade-up" data-aos-duration="1200">By trusting us with your business needs, we promise you a 99.9% uptime on any
-              services we provide, outside of any standard maintenance we may provide</p>
-            <a href="hosting.php" class="btn btn-default-yellow-fill me-2">Order Now <i class="fas fa-cart-plus ps-1 f-15"></i></a>
-            <a href="hosting.php" class="btn btn-default-pink-fill">Learn more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="banner--item">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 banner--img d-none d-sm-block">
-            <img alt="" data-rjs="2" src="assets/img/banner-img/slider-img-02.png" />
-          </div>
-          <div class="col-md-7 banner--content">
-            <h2 class="h1">Build your Dream Website with CloudPhire</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="#" class="btn btn-default">Learn More<i class="fa flm fa-long-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="banner--item">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7 banner--content">
-            <h2 class="h1">Build Your Dream Website With SSDCloud</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="#" class="btn btn-default">Learn More<i class="fa flm fa-long-arrow-right"></i></a>
-          </div>
-          <div class="col-md-5 banner--img">
-            <img alt="" data-rjs="2" src="assets/img/banner-img/slider-img-03.png" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="banner--item">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 banner--img">
-            <img alt="" data-rjs="2" src="assets/img/banner-img/slider-img-04.png" />
-          </div>
-          <div class="col-md-7 banner--content">
-            <h2 class="h1">Build Your Dream Website With SSDCloud</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="#" class="btn btn-default">Learn More<i class="fa flm fa-long-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="d-none d-sm-block banner--slider-nav">
-    <ul class="nav" id="bannerSliderNav">
-      <li class="active">
-        <div class="icon"><i class="fa fa-server"></i></div>
-        <div class="bg-color--theme content">
-          <h3 class="h3">Shared Hosting</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod temporali
-          </p>
-          <a href="#">View More<i class="fa flm fa-long-arrow-right"></i></a>
-        </div>
-      </li>
-      <li>
-        <div class="icon"><i class="fa fa-database"></i></div>
-        <div class="bg-color--theme content">
-          <h3 class="h3">WordPress Hosting</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod temporali
-          </p>
-          <a href="#">View More<i class="fa flm fa-long-arrow-right"></i></a>
-        </div>
-      </li>
-      <li>
-        <div class="icon"><i class="fa fa-mixcloud"></i></div>
-        <div class="bg-color--theme content">
-          <h3 class="h3">Cloud Hosting</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod temporali
-          </p>
-          <a href="#">View More<i class="fa flm fa-long-arrow-right"></i></a>
-        </div>
-      </li>
-      <li>
-        <div class="icon"><i class="fa fa-lock"></i></div>
-        <div class="bg-color--theme content">
-          <h3 class="h3">SSL Certificate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod temporali
-          </p>
-          <a href="#">View More<i class="fa flm fa-long-arrow-right"></i></a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</!--section-->
-
-<!-- ***** SLIDER ***** -->
-<!--section-- class="main-container slider">
-  <div class="silder-container">
-    <div class="carousel header-main-slider">
-      <!-- 1 Slider -- >
-      <div class="carousel-cell overlay">
-        <div class="slider-content">
-          <div class="container">
-            <img class="svg custom-element-right" src="assets/patterns/domainmanage.svg" alt="Domains">
-            <div class="col-sm-12 col-md-6 px-0">
-              <h1 data-aos="fade-up" data-aos-duration="800">Find your new domain name</h1>
-              <p data-aos="fade-up" data-aos-duration="1200">Enter the domain and tld you wish to use in the boxes below and click Lookup to see whether the domain is available for purchase.</p>
-              <form class="domains-search" action="http://inebur.com/whmcs/domainchecker.php?carttpl=antler&systpl=antler" method="post">
-                <input type="text" class="inputdomainsearch special-input" name="domain" placeholder="eg.example.com" autocapitalize="none">
-                <span class="ds-content">
-                  <input type="submit" class="btn btn-default-yellow-fill border-end-0 search initial-transform" value="Search">
-                  <button data-bs-toggle="tooltip" data-bs-placement="bottom" title="Transfer" type="submit" name="transfer" class="btn btn-default-fill border-start-0 initial-transform" value="{$LANG.domainstransfer}"><i class="fa-solid fa-repeat"></i></button>
-                </span>
-              </form>
-              <div class="special-note"><span class="text">Search a domain of your choise from <b>$6.00/yr</b></span></div>
-            </div>
-          </div>
-        </div>
-        <div class="slider-video">
-          <div class="cover-wrapper">
-            <video class="cover-video" autoplay="" loop="" muted="">
-              <source src="assets/videos/planet.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-      <!-- 2 Slider -- >
-      <div class="carousel-cell overlay">
-        <div class="slider-content">
-          <div class="container ">
-            <img class="svg custom-element-right" src="assets/patterns/api.svg" alt="Dedicated Server">
-            <div class="col-sm-12 col-md-6 px-0">
-              <h1 data-aos="fade-up" data-aos-duration="800">Dedicated <br>Server with <br> <span id="typed1"></span></h1>
-              <p class="text-break" data-aos="fade-up" data-aos-duration="1200">If you want to use custom nameservers then enter them below. By default, new domains will use our nameservers for hosting on our network</p>
-              <a href="dedicated.php" class="btn btn-default-yellow-fill me-2">Order Now <i class="fas fa-cart-plus ps-1 f-15"></i></a>
-              <a href="dedicated.php" class="btn btn-default-pink-fill">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel full-slider">
-          <img src="assets/img/topbanner01.jpg" alt="Domains">
-        </div>
-      </div>
-      <!-- 3 Slider -- >
-      <div class="carousel-cell sec-bg6 bg-colorstyle">
-        <div class="slider-content">
-          <div class="container ">
-            <img class="svg custom-element-right" src="assets/patterns/rack.svg" alt="Hosting Package">
-            <div class="col-sm-12 col-md-6 px-0">
-              <h1 class="mergecolor" data-aos="fade-up" data-aos-duration="800">Hosting <br>Package</h1>
-              <p class="text-break seccolor" data-aos="fade-up" data-aos-duration="1200">By trusting us with your business needs, we promise you a 99.9% uptime on any services we provide, outside of any standard maintenance we may provide</p>
-              <a href="hosting.php" class="btn btn-default-yellow-fill me-2">Order Now <i class="fas fa-cart-plus ps-1 f-15"></i></a>
-              <a href="hosting.php" class="btn btn-default-pink-fill">Learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 4 Slider -- >
-      <div class="carousel-cell sec-bg6 bg-colorstyle">
-        <div class="slider-content">
-          <div class="container">
-            <img class="svg custom-element-right" src="assets/patterns/monitoring.svg" alt="Support Requests">
-            <div class="col-sm-12 col-md-6 px-0">
-              <h1 class="mergecolor" data-aos="fade-up" data-aos-duration="800">Support Requests</h1>
-              <p class="text-break seccolor" data-aos="fade-up" data-aos-duration="1200">Our dedication to customer support reaches across the globe as well. We are here to help you with your hosting in any way possible, and you can reach us via phone, email, or live chat.</p>
-              <a href="contact.php" class="btn btn-default-yellow-fill me-2">Contact Us <i class="fa-solid fa-headset"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</!--section-->
 
 <!-- ***** PRICING TABLES - CAROUSEL ***** -->
 <section class="slick sec-normal sec-bg31 bg-colorstyle1">
@@ -673,7 +485,7 @@
         <div class="top-content bg-seccolorstyle">
           <div class="plans badge feat bg-pink">Hosting</div>
           <div class="pricing-heading">
-            <img class="svg mb-3" src="assets/fonts/svg/linuxserver.svg" alt="Shared hosting from £2.49">
+            <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/linuxserver.svg" alt="Shared hosting from £2.49">
             <h3 class="title">Shared Hosting</h3>
           </div>
           <div class="fromer seccolor">Starting at</div>
@@ -692,7 +504,7 @@
       <div class="wrapper bg-seccolorstyle noshadow">
         <div class="top-content bg-seccolorstyle">
           <div class="pricing-heading">
-            <img class="svg mb-3" src="assets/fonts/svg/dedicated.svg" alt="">
+            <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/dedicated.svg" alt="">
             <h3 class="title">Dedicated Server</h3>
           </div>
           <div class="fromer seccolor">windows</div>
@@ -711,7 +523,7 @@
       <div class="wrapper bg-seccolorstyle noshadow">
         <div class="top-content bg-seccolorstyle">
           <div class="pricing-heading">
-            <img class="svg mb-3" src="assets/fonts/svg/cloudfiber.svg" alt="">
+            <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/cloudfiber.svg" alt="">
             <h3 class="title">Cloud Hosting</h3>
           </div>
           <div class="fromer seccolor">Starting from</div>
@@ -730,7 +542,7 @@
       <div class="wrapper bg-seccolorstyle noshadow">
         <div class="top-content bg-seccolorstyle">
           <div class="pricing-heading">
-            <img class="svg mb-3" src="assets/fonts/svg/security.svg" height="65" alt="">
+            <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/security.svg" height="65" alt="">
             <h3 class="title">SSL Certificate</h3>
           </div>
           <div class="fromer seccolor">Starting from</div>
@@ -755,8 +567,8 @@
       <div class="row align-items-center">
         <div class="col-lg-8">
           <div class="section-title">
-            <span>Wide Product Range</span>
-            <h2>...to meet all the needs of web designers, corporate companies & e-commerce sites</h2>
+            <span>Product Range</span>
+            <h2 class="text-white">...to meet all the needs of web designers, corporate companies & e-commerce sites</h2>
           </div>
         </div>
 
@@ -876,8 +688,8 @@
         <div class="col-md-12">
           <div class="wrap-service load">
             <div class="wow animated fadeInUp fast">
-              <img class="svg mt-50 w-100 ltr-img d-block" src="assets/patterns/balancing.svg" alt="Load Balancing">
-              <img class="svg mt-50 w-100 rtl-img d-none" src="assets/patterns/balancing-rtl.svg" alt="Load Balancing">
+              <img class="svg mt-50 w-100 ltr-img d-block" src="https://cdn.rankon.co.uk/patterns/balancing.svg" alt="Load Balancing">
+              <img class="svg mt-50 w-100 rtl-img d-none" src="https://cdn.rankon.co.uk/patterns/balancing-rtl.svg" alt="Load Balancing">
             </div>
             <div class="row text-info text-center">
               <div class="col-md-4 pb-2 pt-5"><b class="c-purple">[1] Users</b> <br>
@@ -909,12 +721,12 @@
       <div class="row">
         <div class="col-sm-12 text-center">
           <h2 class="section-heading">Why Choose CloudPhire?</h2>
-          <p class="section-subheading">We understand the challenges of running a business and maintaining your online presence; that is why we stand right behind you, 
+          <p class="section-subheading">We understand the challenges of running a business and maintaining your online presence; that is why we stand right behind you,
             doing the heavy-lifting so you can run your business like a pro!</p>
         </div>
         <div class="col-md-12 col-lg-4 wow animated fadeInUp fast">
           <div class="service-section bg-colorstyle noshadow">
-            <img class="svg" src="assets/fonts/svg/helpdesk.svg" alt="">
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/helpdesk.svg" alt="">
             <div class="title mergecolor">Support 24x7x365</div>
             <p class="subtitle seccolor">
               Our Support Squad boasts of a strong team to provide assistance and guidance round the clock
@@ -925,7 +737,7 @@
         <div class="col-md-12 col-lg-4 wow animated fadeInUp">
           <div class="service-section bg-colorstyle noshadow">
             <div class="plans badge feat bg-pink">Control Panel</div>
-            <img class="svg" src="assets/fonts/svg/window.svg" alt="">
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/window.svg" alt="">
             <div class="title mergecolor">Free WHM &amp; cPanel</div>
             <p class="subtitle seccolor">
               Install, integrate, manage and sell through leading hosting billing platforms
@@ -935,7 +747,7 @@
         </div>
         <div class="col-md-12 col-lg-4 wow animated fadeInUp fast">
           <div class="service-section bg-colorstyle noshadow">
-            <img class="svg" src="assets/fonts/svg/cloudmanaged.svg" alt="">
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/cloudmanaged.svg" alt="">
             <div class="title mergecolor">Perfomance Optimized</div>
             <p class="subtitle seccolor">
               With our ultra-modern infrastruture, you get to experience 99.99% uptime, regardless of the plan
@@ -959,7 +771,7 @@
             server infrastructure which hosts all our Products and Services.</p>
         </div>
         <div class="col-md-12 col-lg-7 pt-5 scrollme position-relative">
-          <img src="assets/patterns/map.svg" class="lazyload w-10 animateme" alt="Load Balancing" data-when="view" data-from="1" data-to="0" data-opacity="0">
+          <img src="https://cdn.rankon.co.uk/patterns/map.svg" class="lazyload w-10 animateme" alt="Load Balancing" data-when="view" data-from="1" data-to="0" data-opacity="0">
           <span class="datacenters montreal" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="Montreal" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
           <span class="datacenters newyork" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="New York" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
           <span class="datacenters london" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="hover" data-bs-placement="top" title="London" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
@@ -985,8 +797,8 @@
 <section class="casestudy sec-bg2 bg-colorstyle">
   <div class="container">
     <div class="sec-main sec-up bg-purple mb-0 nomargin">
-      <img class="lazyload ltr-img d-block" src="assets/img/casestudy.png" data-src="./assets/img/casestudy.png" alt="Case Study">
-      <img class="lazyload rtl-img d-none" src="assets/img/casestudy-rtl.png" data-src="./assets/img/casestudy-rtl.png" alt="Case Study">
+      <img class="lazyload ltr-img d-block" src="https://cdn.rankon.co.uk/img/casestudy.png" alt="Case Study">
+      <img class="lazyload rtl-img d-none" src="https://cdn.rankon.co.uk/img/casestudy-rtl.png" alt="Case Study">
       <div class="plans badge feat bg-dark">case study</div>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-9">
@@ -999,7 +811,7 @@
                     <div class="content-info">
                       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
                       <div class="mb-3"> Michael Jones - Executive Director</div>
-                      <a href="assets/casestudy/casestudy-everthgroup.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
+                      <a href="https://cdn.rankon.co.uk/casestudy/casestudy-everthgroup.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
                     </div>
                   </div>
                   <div class="swiper-slide">
@@ -1007,7 +819,7 @@
                     <div class="content-info">
                       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore.</p>
                       <div class="mb-3"> Matt Radford - President &amp; Managing Director</div>
-                      <a href="assets/casestudy/casestudy-growtop.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
+                      <a href="https://cdn.rankon.co.uk/casestudy/casestudy-growtop.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
                     </div>
                   </div>
                 </div>
@@ -1030,7 +842,7 @@
           <div class="help-container bg-seccolorstyle noshadow">
             <a href="javascript:void(Tawk_API.toggle())" class="help-item">
               <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/livechat.svg" height="65" alt="Live Chat">
+                <img class="svg ico" src="https://cdn.rankon.co.uk/fonts/svg/livechat.svg" height="65" alt="Live Chat">
               </div>
               <div class="inform">
                 <div class="title mergecolor">Live Chat</div>
@@ -1043,7 +855,7 @@
           <div class="help-container bg-seccolorstyle noshadow">
             <a href="contact.php" class="help-item">
               <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/emailopen.svg" height="65" alt="Send Ticket">
+                <img class="svg ico" src="https://cdn.rankon.co.uk/fonts/svg/emailopen.svg" height="65" alt="Send Ticket">
               </div>
               <div class="inform">
                 <div class="title mergecolor">Send Ticket</div>
@@ -1056,7 +868,7 @@
           <div class="help-container bg-seccolorstyle noshadow">
             <a href="knowledgebase-list.php" class="help-item">
               <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/book.svg" height="65" alt="Knowledge base">
+                <img class="svg ico" src="https://cdn.rankon.co.uk/fonts/svg/book.svg" height="65" alt="Knowledge base">
               </div>
               <div class="inform">
                 <div class="title mergecolor">Knowledge base</div>
@@ -1070,4 +882,7 @@
   </div>
 </section>
 
-<?php include_once('inc/_footer.php') ?>
+<?php
+$extraJs = [];
+include_once('inc/_footer.php');
+?>
