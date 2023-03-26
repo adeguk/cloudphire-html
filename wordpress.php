@@ -1,6 +1,8 @@
 ﻿<?php
 $extraCss = [
-  '<link href="https://cdn.rankon.co.uk/css/animate.min.css" rel="stylesheet">'
+  '<link href="https://cdn.rankon.co.uk/css/animate.min.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/mixitup.css" rel="stylesheet">',
+  '<link href="https://cdn.rankon.co.uk/css/filter.css" rel="stylesheet">'
 ];
 include_once('inc/_header.php');
 ?>
@@ -10,8 +12,8 @@ include_once('inc/_header.php');
     <div class="row">
       <div class="col-sm-12 col-md-12">
         <div class="wrapper">
-          <h1 class="heading">Get Started with WordPress</h1>
-          <h3 class="subheading">Reliable, powerful, and fast hosting with just one click</h3>
+          <h1 class="bold-heading text-white">WordPress powered by our Cloud Hosting from just £ 5.32/mo</h1>
+          <h3 class="subheading">A secure, reliable and powerful platform crafted for WordPress with just one click</h3>
           <div id="run-switch" class="run-switch">
             <div class="mo">Monthly Price</div>
             <div class="switch"></div>
@@ -20,22 +22,22 @@ include_once('inc/_header.php');
           <div class="included">
             <h4 class="mb-3">All plans include</h4>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Control Panel</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Control Panel</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Server Caching Tools</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Server Caching Tools</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> SSL & Privacy Included</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> SSL & Privacy Included</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Daily Backups</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Daily Backups</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Powerful SSD Storage</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Powerful SSD Storage</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Support 24/7/365</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Support 24/7/365</li>
             </ul>
           </div>
         </div>
@@ -45,7 +47,7 @@ include_once('inc/_header.php');
 </div>
 <!-- ***** FEATURES DIVISION ***** -->
 <a class="gocontent godown gocheck" href="#scroll">
-  <img class="svg" src="assets/fonts/svg/arrowdown.svg" height="80" alt="features">
+  <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/arrowdown.svg" height="80" alt="features">
   <span>Features</span>
 </a>
 <!-- ***** PRICING TABLES ***** -->
@@ -55,12 +57,15 @@ include_once('inc/_header.php');
       <div class="col-sm-12 col-md-6 col-lg-4 animateme" data-when="enter" data-from="0" data-to="1" data-opacity="1" data-translatey="-20">
         <div class="wrapper price-container text-start wow animated fadeInUp fast noshadow">
           <div class="top-content bg-seccolorstyle topradius">
-            <img class="svg mb-3" src="assets/fonts/svg/wordpress.svg" alt="">
-            <div class="title">AntlerPress Starter</div>
-            <div class="fromer seccolor">Great for small WordPress sites, and for an affordable solution</div>
+            <div class="pricing-heading">
+              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/wordpress.svg" alt="Starter Lite from £62.00">
+              <h3 class="title">Starter Lite<br>
+                <span class="subtitle fromer seccolor">Best for small business</span>
+              </h3>
+            </div>
             <div class="price-content">
-              <div class="price mergecolor">
-                <sup class="coin">$</sup>
+              <div class="price">
+                <sup class="coin">£</sup>
                 <span class="value">74.28</span>
                 <small>/</small><span class="period annually">year</span>
               </div>
@@ -68,10 +73,10 @@ include_once('inc/_header.php');
             <a href="" class="btn btn-default-yellow-fill">Order now</a>
           </div>
           <ul class="list-info">
-            <li><i class="icon-global"></i> <span class="c-purple">WEB</span><br> <span>2 Websites</span></li>
-            <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB Space</span></li>
-            <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>1TB Bandwidth</span></li>
-            <li><i class="icon-helpdesk"></i> <span class="c-purple">HELP</span><br> <span>Phone, Chat & Tickes</span></li>
+            <li><i class="icon-global"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+            <li><i class="icon-drives"></i> <span class="c-yellow">DISK</span><br> <span>5GB Space</span></li>
+            <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>2 GB RAM</span></li>
+            <li><i class="icon-helpdesk"></i> <span class="c-yellow">HELP</span><br> <span>Chat & Tickets</span></li>
           </ul>
         </div>
       </div>
@@ -79,30 +84,33 @@ include_once('inc/_header.php');
         <div class="wrapper price-container text-start wow animated fadeInUp noshadow">
           <div class="plans badge feat bg-pink">best value</div>
           <div class="top-content bg-seccolorstyle topradius">
-            <img class="svg mb-3" src="assets/fonts/svg/wordpress.svg" alt="">
-            <div class="title">AntlerPress Pro</div>
-            <div class="fromer seccolor">Perfect for businesses that expect high performance and Grow</div>
+            <div class="pricing-heading">
+              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/wordpress.svg" alt="Professional from £62.00">
+              <h3 class="title">Professional<br>
+                <span class="subtitle fromer seccolor">Best for enterprise business</span>
+              </h3>
+            </div>
             <div class="price-content">
-              <div class="price mergecolor">
-                <sup class="coin">$</sup>
+              <div class="price">
+                <sup class="coin">£</sup>
                 <span class="value">179.88</span>
                 <small>/</small><span class="period annually">year</span>
               </div>
             </div>
             <a href="" class="btn btn-default-yellow-fill">Order now</a>
           </div>
-          <ul class="list-info bg-purple">
-            <li><i class="icon-global"></i> <span class="c-pink">WEB</span><br> <span>6 Websites</span></li>
-            <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB SSD Space</span></li>
-            <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>Unlimited Bandwidth</span></li>
-            <li><i class="icon-helpdesk"></i> <span class="c-pink">HELP</span><br> <span>Phone, Chat & Tickes</span></li>
+          <ul class="list-info">
+            <li><i class="icon-global"></i> <span class="c-yellow">INSTALLATION</span><br> <span>5 WordPress</span></li>
+            <li><i class="icon-drives"></i> <span class="c-yellow">DISK</span><br> <span>40GB SSD Space</span></li>
+            <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>6 GB RAM</span></li>
+            <li><i class="icon-helpdesk"></i> <span class="c-yellow">HELP</span><br> <span>Chat & Tickets</span></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
-<img class="blobleft svg d-none" src="assets/img/background/blob.svg" alt="Blob Background">
+<img class="blobleft svg d-none" src="https://cdn.rankon.co.uk/img/background/blob.svg" alt="Blob Background">
 
 <!-- ***** FEATURES ***** -->
 <section class="services bg-colorstyle pb-3 pt-5">
@@ -115,34 +123,33 @@ include_once('inc/_header.php');
         <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="service-section m-1 entrychange">
             <div class="pricing-heading">
-              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/fast-website.svg" alt="Fast Website">
-              <h3 class="title mt-0">Lightning Fast Website</h3>
+              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/auto-setup.svg" alt="Auto-Setup">
+              <h3 class="title mt-0">Auto-Setup</h3>
             </div>
             <p class="subtitle seccolor">
-              Our web application accelerator, powered by Varnish Cache, ensures the maximum performance of your website at all times!
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-4">
-          <div class="service-section m-1 entrychange">
-            <!--div-- class="plans badge feat bg-red">automation</!--div-->
-            <div class="pricing-heading">
-              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/email-included.svg" alt="Email included">
-              <h3 class="title">Email included</h3>
-            </div>
-            <p class="subtitle seccolor">
-              Advanced email management features in cPanel allow you manage your emails, mailing lists and more without any hassles.
+              No need for any legwork - Your WordPress hosting comes pre-configured with the latest version of WordPress and is ready-to-use the moment you buy it.
             </p>
           </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="service-section m-1 entrychange">
             <div class="pricing-heading">
-              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/cpanel-management.svg" alt="cPanel for Management">
-              <h3 class="title mt-0">cPanel for Management</h3>
+              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/auto-updates.svg" alt="Auto-Updates">
+              <h3 class="title">Auto-Updates</h3>
             </div>
             <p class="subtitle seccolor">
-              cPanel, an intuitive and powerful control panel, is available on all plans which makes your hosting package management a breeze!
+              Any patches or version upgrades released by WordPress are automatically installed for your packages, not only making your sites future-proof but also more secure.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="service-section m-1 entrychange">
+            <div class="pricing-heading">
+              <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/fast-website.svg" alt="Auto-Caching">
+              <h3 class="title mt-0">Auto-Caching</h3>
+            </div>
+            <p class="subtitle seccolor">
+              WordPress sites with our Cloud hosting comes with cache and CDN auto-configured on all your packages, pages load much faster with the least amount of resources.
             </p>
           </div>
         </div>
@@ -150,65 +157,28 @@ include_once('inc/_header.php');
           <div class="row justify-content-center">
             <div class="col-sm-12 col-md-4 col-lg-6">
               <div class="service-section m-1 entrychange">
-                <!--div-- class="plans badge feat bg-red">automation</!--div-->
                 <div class="pricing-heading">
-                  <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/email-included.svg" alt="Email included">
-                  <h3 class="title">Email included</h3>
+                  <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/auto-backup.svg" alt="Auto-Backups">
+                  <h3 class="title">Auto-Backups</h3>
                 </div>
                 <p class="subtitle seccolor">
-                  Advanced email management features in cPanel allow you manage your emails, mailing lists and more without any hassles.
+                  Get a time machine for all your WordPress sites. With CodeGuard automatically set up for any site you create, your data is always protected and regularly backed up.
                 </p>
+                <a href="#">Security Suite</a>
               </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-6">
               <div class="service-section m-1 entrychange">
                 <div class="pricing-heading">
-                  <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/cpanel-management.svg" alt="cPanel for Management">
-                  <h3 class="title mt-0">cPanel for Management</h3>
+                  <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/auto-secured.svg" alt="Auto-Secured">
+                  <h3 class="title mt-0">Auto-Secured</h3>
                 </div>
                 <p class="subtitle seccolor">
-                  cPanel, an intuitive and powerful control panel, is available on all plans which makes your hosting package management a breeze!
+                  No need to worry about viruses or hacking attempts. All your WordPress sites will be regularly scanned for malware with SiteLock's advanced security tools.
                 </p>
+                <a href="#">Security Suite</a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ***** HELP ***** -->
-<section class="help pb-5 pt-1 motpath bg-colorstyle border-top border-bottom">
-  <div class="container">
-    <div class="service-wrap">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="help-container bg-seccolorstyle noshadow">
-            <div class="plans badge feat left bg-grey"><i class="fas fa-long-arrow-alt-left"></i></div>
-            <a href="hosting" class="help-item">
-              <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/cloudfiber.svg" alt="">
-              </div>
-              <div class="inform">
-                <div class="title mergecolor">Go to Shared Hosting</div>
-                <div class="description seccolor">Need similar power but a simpler solution?</div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="help-container bg-seccolorstyle noshadow">
-            <div class="plans badge feat bg-grey"><i class="fas fa-long-arrow-alt-right"></i></div>
-            <a href="dedicated" class="help-item">
-              <div class="img">
-                <img class="svg ico" src="assets/fonts/svg/dedicated.svg" alt="">
-              </div>
-              <div class="inform">
-                <div class="title mergecolor">Go to Dedicated Server</div>
-                <div class="description seccolor">Need more power and resources?</div>
-              </div>
-            </a>
           </div>
         </div>
       </div>
@@ -217,26 +187,21 @@ include_once('inc/_header.php');
 </section>
 
 <!-- ***** PRICING TABLES ***** -->
-<section id="radioplans" class="tabs pricing special sec-normal sec-bg3 bottompadding bg-seccolorstyle">
+<section id="radioplans" class="tabs pricing special sec-normal sec-bg7 bottompadding bg-seccolorstyle">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
         <h2 class="section-heading text-white">Select Your Plan</h2>
-        <p class="section-subheading text-white">If not satisfied, get your money back by cancelling within 30 days</p>
+        <p class="section-subheading text-white">All out plans come with Unlimited Email Accounts and Free SSL Certificate. If not satisfied, get your money back by cancelling within 30 days.</p>
       </div>
     </div>
     <div class="text-center mt-3">
       <div class="tabs-header">
         <ul class="btn-group">
-          <li class="btn btn-secondary active mb-2 me-3">US (Texas)</li>
-          <li class="btn btn-secondary">UK</li>
+          <li class="btn btn-secondary active mb-2 me-3">WordPress Hosting</li>
+          <li class="btn btn-secondary">WordPress Hosting + Security Suite</li>
         </ul>
       </div>
-      <!--div-- id="run-switch" class="run-switch">
-        <div class="mo">Monthly Price</div>
-        <div class="switch"></div>
-        <div class="an active">Anually Price</div>
-      </!--div-->
     </div>
     <div class="tabs-content">
       <div class="tabs-item active">
@@ -253,19 +218,30 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/dedicated.svg" alt="Radio Starter Hosting from £62.00">
-                  <h3 class="title">Gold Hosting<br>
-                    <span class="subtitle">Great for medium broadcasters</span>
-                  </h3>
+                  <h3 class="title">Gold Hosting</h3>
                 </div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">49.00</span> <span class="period annually">/year</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Place Your Order</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info">
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>6GB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Dual Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>30GB Monthly</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>350 Listener</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>320kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
 
@@ -274,20 +250,30 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/cloudfiber.svg" alt="Radio Starter Hosting from £62.00">
-                  <h3 class="title">Starter Hosting <br>
-                    <span class="subtitle">Great for hobbycasting</span>
-                  </h3>
+                  <h3 class="title">Starter Hosting</h3>
                 </div>
-                <div class="fromer seccolor"></div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">32.00</span> <span class="period annually">/year</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Place Your Order</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info">
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>4GB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Quad Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>10GB Monthly</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>120 Listener</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>128kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
 
@@ -297,19 +283,30 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/dedicated.svg" alt="Radio Starter Hosting from £62.00">
-                  <h3 class="title">Gold Hosting<br>
-                    <span class="subtitle">Great for medium broadcasters</span>
-                  </h3>
+                  <h3 class="title">Gold Hosting</h3>
                 </div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">49.00</span> <span class="period annually">/year</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Place Your Order</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info">
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>6GB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Hexa Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>30GB Monthly</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>350 Listener</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>320kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
 
@@ -318,22 +315,32 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/vps.svg" alt="Radio Starter Hosting from £62.00">
-                  <h3 class="title">Pro Hosting<br>
-                    <span class="subtitle">Great for pro broadcasters</span>
-                  </h3>
+                  <h3 class="title">Pro Hosting</h3>
                 </div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">80.00</span> <span class="period annually">/year</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Place Your Order</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info">
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>16GB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Hexa Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>Unlimited</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>Unlimited</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>568kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
       <div class="tabs-item">
@@ -349,20 +356,30 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/cloudfiber.svg" alt="Starter Hosting from £62.00">
-                  <h3 class="title">Starter Reseller<br>
-                    <span class="subtitle">Great for pro broadcasters</span>
-                  </h3>
+                  <h3 class="title">Starter Reseller</h3>
                 </div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">130.00</span> <span class="period annually">/month</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Order Now</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info">
-                <li><i class="icon-layers"></i> <span class="c-yellow">ACCOUNTS</span><br> <span>60 Accounts</span></li>
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>120GB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Dual Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>Unlimited</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>2500 Listener</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>128kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
 
@@ -371,20 +388,30 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/dedicated.svg" alt="Gold Hosting from £62.00">
-                  <h3 class="title">Gold Reseller<br>
-                    <span class="subtitle">Great for pro broadcasters</span>
-                  </h3>
+                  <h3 class="title">Gold Reseller</h3>
                 </div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">250.00</span> <span class="period annually">/month</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Order Now</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info bg-purple">
-                <li><i class="icon-layers"></i> <span class="c-yellow">ACCOUNTS</span><br> <span>90 Accounts</span></li>
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>520GB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Quad Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>Unlimited</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>8000 Listener</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>320kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
 
@@ -393,20 +420,30 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/vps.svg" alt="Pro Hosting from £62.00">
-                  <h3 class="title">Pro Reseller<br>
-                    <span class="subtitle">Great for pro broadcasters</span>
-                  </h3>
+                  <h3 class="title">Pro Reseller</h3>
                 </div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">390.00</span> <span class="period annually">/month</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Order Now</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info">
-                <li><i class="icon-layers"></i> <span class="c-yellow">ACCOUNTS</span><br> <span>150 Accounts</span></li>
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>1TB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Hexa Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>Unlimited</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>Unlimited</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>568kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
 
@@ -415,43 +452,94 @@ include_once('inc/_header.php');
               <div class="price-content top-content bg-colorstyle topradius">
                 <div class="pricing-heading">
                   <img class="svg mb-3" src="https://cdn.rankon.co.uk/fonts/svg/dedicated.svg" alt="Gold Hosting from £62.00">
-                  <h3 class="title">Gold Reseller<br>
-                    <span class="subtitle">Great for pro broadcasters</span>
-                  </h3>
+                  <h3 class="title">Gold Reseller</h3>
                 </div>
-                <div class="price seccolor"><sup class="coin">$</sup><span class="value">250.00</span> <span class="period annually">/month</span></div>
-                <a href="" class="btn btn-default-yellow-fill">Order Now</a>
+                <div class="price"><span class="norm-p">from </span><sup>$</sup>82.00 <span class="period">/mo</span></div>
               </div>
-              <ul class="list-info bg-purple">
-                <li><i class="icon-layers"></i> <span class="c-yellow">ACCOUNTS</span><br> <span>90 Accounts</span></li>
-                <li><i class="icon-stream"></i> <span class="c-yellow">STORAGE</span><br> <span>520GB Auto DJ</span></li>
+              <ul class="list-info border-start-0 border-end-0">
+                <li><i class="icon-layers"></i> <span class="c-yellow">INSTALLATION</span><br> <span>1 WordPress</span></li>
+                <li><i class="icon-cpu"></i> <span class="c-yellow">CPU</span><br> <span>Hexa Core</span></li>
+                <li><i class="icon-ram"></i> <span class="c-yellow">RAM</span><br> <span>16GB (up to 32GB)</span></li>
+                <li><i class="icon-drivessd"></i> <span class="c-yellow">DRIVES</span><br> <span>2 x 1TB SATA 3.5</span></li>
                 <li><i class="icon-speed"></i> <span class="c-yellow">BANDWIDTH</span><br> <span>Unlimited</span></li>
-                <li><i class="icon-headphones"></i> <span class="c-yellow">SLOTS</span><br> <span>8000 Listener</span></li>
-                <li><i class="icon-router"></i> <span class="c-yellow">BROADCAST</span><br> <span>320kb/s Quality</span></li>
               </ul>
+              <div class="price-content top-content bg-colorstyle topradius">
+                <p class="norm-p">Great for medium broadcasters</p>
+                <div class="cd-filter-block mb-0" data-filter-group="">
+                  <div class="cd-filter-content cd-select">
+                    <select class="select-filter">
+                      <option value=".data1">3 Year at £ 9.00/mo</option>
+                      <option value=".data2">2 Year at £ 11.00/mo</option>
+                      <option value=".data3">1 Year at £ 14.40/mo</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-default-yellow-fill w-100">Order Now</a>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </div>
 </section>
+<section class="sec-normal wp-about-us-banner sec-bg7 bottompadding pt-0 text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="text-white">WordPress powers 27% of websites on the Internet</h2>
+        <p class="section-subheading text-white">Build anything - a blog, a static website or an ecommerce shop</p>
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col-md-6 py-3">
+        <ul>
+          <li><i class="fas fa-check-circle text-secondary pe-3"></i>
+            <span class="h5 mb-2">Ready-made Themes</span><br>
+            <span>Choose from over 25,000+ themes available for any type of business, portfolio, or blog.</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 py-3">
+        <ul>
+          <li><i class="fas fa-check-circle text-secondary pe-3"></i>
+            <span class="h5 mb-2">SEO-friendly</span><br>
+            <span>With pre-integrated SEO friendly module, drive maximum traffic to your site through search engines.</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 py-3">
+        <ul>
+          <li><i class="fas fa-check-circle text-secondary pe-3"></i>
+            <span class="h5 mb-2">Diversified Plugins</span><br>
+            <span>Add features to your websites by installing plugins in a few clicks.</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 py-3">
+        <ul>
+          <li><i class="fas fa-check-circle text-secondary pe-3"></i>
+            <span class="h5 mb-2">Mobile Compatible</span><br>
+            <span>Create and even edit your site on any mobile device seamlessly.</span>
+          </li>
+        </ul>
+      </div>
+</section>
 
 <!-- ***** WHY CHOOSE ANTLER ***** -->
-<section class="services sec-normal sec-bg3 cpupath-w cpupath scrollme bg-colorstyle">
+<!--section class="services wp-about-us-banner sec-bg7 cpupath-w cpupath scrollme bg-colorstyle">
   <div class="container">
     <div class="service-wrap">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h2 class="section-heading text-white mergecolor">Why choose Antler Plans for your CMS?</h2>
-          <p class="section-subheading text-muted mergecolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <h2 class="section-heading text-white">Why choose Antler Plans for your CMS?</h2>
+          <p class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
         </div>
         <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
           <div class="service-section bg-seccolorstyle noshadow">
             <div class="plans badge feat bg-pink">Softaculous</div>
-            <img class="svg" src="assets/fonts/svg/select.svg" alt="">
-            <div class="title mergecolor">Easy 1-click-installer</div>
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/select.svg" alt="">
+            <div class="title">Easy 1-click-installer</div>
             <p class="subtitle seccolor">
               Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum dolor sit amet, consectetur.
             </p>
@@ -459,8 +547,8 @@ include_once('inc/_header.php');
         </div>
         <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="100" data-easeinout="0">
           <div class="service-section bg-seccolorstyle noshadow">
-            <img class="svg" src="assets/fonts/svg/speed.svg" alt="">
-            <div class="title mergecolor">Superfast Websites</div>
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/speed.svg" alt="">
+            <div class="title">Superfast Websites</div>
             <p class="subtitle seccolor">
               Excepteur sint occaecat cupidatat non proident dolor. Lorem ipsum dolor sit amet, consectetur.
             </p>
@@ -469,8 +557,60 @@ include_once('inc/_header.php');
         <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
           <div class="service-section bg-seccolorstyle noshadow">
             <div class="plans badge feat bg-pink">Free</div>
-            <img class="svg" src="assets/fonts/svg/inverse.svg" alt="">
-            <div class="title mergecolor">Website Migrations</div>
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/inverse.svg" alt="">
+            <div class="title">Website Migrations</div>
+            <p class="subtitle seccolor">
+              Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum dolor sit amet, consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section-->
+<!-- ***** WHY CHOOSE WORDPRESS PLAN ***** -->
+<section class="services sec-normal sec-bg1 wp-cloud-features-bg bg-colorstyle">
+  <div class="container">
+    <div class="service-wrap">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="section-heading">Your WordPress Site</h2>
+          <h3 class="section-subheading">powered by our Cloud Hosting</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
+          <div class="service-section text-center bg-seccolorstyle noshadow mt-4">
+            <div class="plans badge feat bg-pink">Softaculous</div>
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/select.svg" alt="">
+            <div class="title">Blazing-Fast Load Time</div>
+            <p class="subtitle seccolor">
+              Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum dolor sit amet, consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="100" data-easeinout="0">
+          <div class="service-section text-center bg-seccolorstyle noshadow mt-4">
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/speed.svg" alt="">
+            <div class="title">Superfast Websites</div>
+            <p class="subtitle seccolor">
+              Excepteur sint occaecat cupidatat non proident dolor. Lorem ipsum dolor sit amet, consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
+          <div class="service-section text-center bg-seccolorstyle noshadow mt-4">
+            <div class="plans badge feat bg-pink">Free</div>
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/inverse.svg" alt="">
+            <div class="title">Website Migrations</div>
+            <p class="subtitle seccolor">
+              Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum dolor sit amet, consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="-100" data-easeinout="0">
+          <div class="service-section text-center bg-seccolorstyle noshadow mt-4">
+            <div class="plans badge feat bg-pink">Free</div>
+            <img class="svg" src="https://cdn.rankon.co.uk/fonts/svg/inverse.svg" alt="">
+            <div class="title">Website Migrations</div>
             <p class="subtitle seccolor">
               Excepteur sint occaecat cupidatat non proident voluptate. Lorem ipsum dolor sit amet, consectetur.
             </p>
@@ -480,134 +620,220 @@ include_once('inc/_header.php');
     </div>
   </div>
 </section>
-<!-- ***** PRICING TABLES ***** -->
-<section class="sec-normal compare-plans bg-colorstyle">
-  <div class="best-plans pricing">
+<!-- ***** FAQ ***** -->
+<section class="sec-normal sec-bg1 bg-colorstyle">
+  <div class="faq">
     <div class="container">
-      <div class="randomline">
-        <div class="bigline"></div>
-        <div class="smallline"></div>
-      </div>
-      <div class="sec-main sec-bg1">
-        <div class="plans badge feat bg-pink hideelement">Compare All WordPress Plans</div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div id="table-container" class="table-responsive-lg">
-              <table id="maintable" class="table">
-                <thead>
-                  <tr>
-                    <td></td>
-                    <td>
-                      <div class="title">Starter</div>
-                      <div class="price mergecolor"><sup>$</sup>6.19<span class="period">/mo</span></div>
-                      <div class="plans badge bg-grey">Renews $8.66 /mo</div>
-                      <div class="info seccolor">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</div>
-                      <a href="" class="btn btn-default-yellow-fill">Buy Now</a><br>
-                    </td>
-                    <td>
-                      <div class="title">Professional</div>
-                      <div class="price mergecolor"><sup>$</sup>14.99<span class="period">/mo</span></div>
-                      <div class="plans badge bg-grey">Renews $16.90 /mo</div>
-                      <div class="info seccolor">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</div>
-                      <a href="" class="btn btn-default-yellow-fill">Buy Now</a>
-                    </td>
-                    <td>
-                      <div class="title">Elite</div>
-                      <div class="price mergecolor"><sup>$</sup>19.00<span class="period">/mo</span></div>
-                      <div class="plans badge bg-grey">Renews $26.02 /mo</div>
-                      <div class="info seccolor">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</div>
-                      <a href="" class="btn btn-default-yellow-fill">Buy Now</a>
-                    </td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <div class="title-table" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="I must explain to you">Websites
-                      </div>
-                    </td>
-                    <td>2 Websites</td>
-                    <td>4 Websites</td>
-                    <td>8 Websites</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div id="element" class="title-table" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="I must explain to you">SSD Storage
-                      </div>
-                    </td>
-                    <td>40GB SSD</td>
-                    <td>60GB SSD</td>
-                    <td>120GB SSD</td>
-                  </tr>
-                  <tr>
-                    <td class="title-table">RAM</td>
-                    <td>12GB</td>
-                    <td>32GB</td>
-                    <td>64GB</td>
-                  </tr>
-                  <tr>
-                    <td class="title-table">Cores</td>
-                    <td>4</td>
-                    <td>8</td>
-                    <td>16</td>
-                  </tr>
-                  <tr>
-                    <td class="title-table">Bandwidth</td>
-                    <td>Unlimited</td>
-                    <td>Unlimited</td>
-                    <td>Unlimited</td>
-                  </tr>
-                  <tr>
-                    <td class="title-table"><span class="badge bg-pink">free</span> SSL Certificate</td>
-                    <td><i class="fas fa-times seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                  </tr>
-                  <tr>
-                    <td class="title-table">Auto Daily Backups</td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                  </tr>
-                  <tr>
-                    <td class="title-table">Accounts</td>
-                    <td>Unlimited</td>
-                    <td>Unlimited</td>
-                    <td>Unlimited</td>
-                  </tr>
-                  <tr>
-                    <td class="title-table"><span class="badge bg-grey">auto</span> WordPress Updates</td>
-                    <td>Automatic</td>
-                    <td>Automatic</td>
-                    <td>Automatic</td>
-                  </tr>
-                  <tr>
-                    <td class="title-table"><span class="badge bg-grey">premium</span> 24/7 Ticket Support</td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                  </tr>
-                  <tr>
-                    <td class="title-table">Live Chat Support</td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                  </tr>
-                  <tr>
-                    <td class="title-table">Money-back Guarantee</td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                    <td><i class="fas fa-check seccolor"></i></td>
-                  </tr>
-                  <tr>
-                    <td class="border-0 sticky-stopper"></td>
-                    <td><a href="" class="btn btn-default-yellow-fill">Buy Now</a></td>
-                    <td><a href="" class="btn btn-default-yellow-fill">Buy Now</a></td>
-                    <td><a href="" class="btn btn-default-yellow-fill">Buy Now</a></td>
-                  </tr>
-                </tbody>
-              </table>
-              <div id="bottom_anchor"></div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+          <h2 class="section-heading mergecolor">Frequently Asked Questions Hosting</h2>
+          <p class="section-subheading mergecolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="col-sm-12">
+          <div class="accordion faq pt-5">
+            <div class="panel-wrap">
+              <div class="panel-title seccolor active">
+                <span>Q. What is Shared Web hosting?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse" style="display: block;">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>In Shared Web Hosting, multiple clients are hosted on a single server i.e. the clients share the server's resources. This helps reduce the cost,
+                          since the cost of the server and its resources are spread over all the clients/packages hosted on the server. Shared Hosting is perfect for personal websites,
+                          small and mid-sized businesses that do not require all the resources of a server.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Can I host multiple Web sites within one Shared Hosting plan?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Yes! Our Pro and Business shared hosting plans allow you to host more than one Website, by adding secondary domains through your hosting control panel i.e. cPanel.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Is there a Money Back Guarantee?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Yes, we offer a 100% Risk Free, 30 day Money Back Guarantee.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Is Email hosting included in my package?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Yes, all our Hosting packages come with Unlimited Email Hosting.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Can I upgrade to a higher plan?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Yes, you can easily upgrade to one of our higher plans at any time.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Is my data safe? Do you take backups?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Yes, your data is a 100% secure and is backed-up every 5 days.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Do you include protection from viruses?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Yes, all our servers are protected by Clam AV.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Can I divide my Shared Hosting package and resell it?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>While a Shared Hosting package cannot be used for this purpose, you can easily resell custom packages with our Reseller Hosting.
+                          To view our Reseller Hosting plans, <a href="/reseller-hosting.php"> click here. </a></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Do you offer SSH access?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Yes, we provide SSH access to your domain. Because this is a shared environment, you will not get root access.
+                          However, you will be able to achieve most of your requirements by having the rights to access only the files relevant to your domain.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrap">
+              <div class="panel-title seccolor">
+                <span>Q. Who do I get in touch with if I need help?</span>
+                <div class="float-end">
+                  <i class="fa fa-plus"></i>
+                  <i class="fa fa-minus c-pink"></i>
+                </div>
+              </div>
+              <div class="panel-collapse">
+                <div class="wrapper-collapse">
+                  <div class="info">
+                    <ul class="list seccolor">
+                      <li>
+                        <p>Our Support team is always at hand to assist you. You can take a look at all our contact details <a href="/support/contact-us.php">here</a>.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -621,82 +847,43 @@ include_once('inc/_header.php');
   </path>
 </svg>
 
-<!-- ***** TEAM ***** -->
-<!--section-- class="sec-normal motpath sec-bg4">
-  <div class="team">
-    <div class="container">
+<!-- ***** HELP ***** -->
+<section class="help pb-5 pt-1 motpath bg-colorstyle border-top border-bottom">
+  <div class="container">
+    <div class="service-wrap">
       <div class="row">
-        <div class="col-sm-12 col-md-12 text-center">
-          <h2 class="section-heading">Did not find what you looking for?</h2>
-          <p class="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="wrapper">
-            <div class="img-section">
-              <div class="soc-icons-wrap">
-                <div class="icons">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-google-plus-g"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="help-container bg-seccolorstyle noshadow">
+            <div class="plans badge feat left bg-grey"><i class="fas fa-long-arrow-alt-left"></i></div>
+            <a href="hosting.php" class="help-item">
+              <div class="img">
+                <img class="svg ico" src="https://cdn.rankon.co.uk/fonts/svg/centos.svg" alt="">
               </div>
-            </div>
-            <div class="team-info bg-colorstyle noshadow">
-              <img class="svg" src="assets/patterns/supportman.svg" alt="team">
-              <h3 class="heading mergecolor">John T. Erikson</h3>
-              <div class="subheading seccolor">Support, Helpdesk</div>
-              <div class="desc seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-              <a href="#" class="btn btn-default-yellow-fill mt-4">Contact</a>
-            </div>
+              <div class="inform">
+                <div class="title">Go to Shared Hosting</div>
+                <div class="description seccolor">Need similar power but a simpler solution?</div>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="wrapper">
-            <div class="img-section">
-              <div class="soc-icons-wrap">
-                <div class="icons">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-google-plus-g"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="help-container bg-seccolorstyle noshadow">
+            <div class="plans badge feat bg-grey"><i class="fas fa-long-arrow-alt-right"></i></div>
+            <a href="dedicated.php" class="help-item">
+              <div class="img">
+                <img class="svg ico" src="https://cdn.rankon.co.uk/fonts/svg/dedicated.svg" alt="">
               </div>
-            </div>
-            <div class="team-info bg-colorstyle noshadow">
-              <img class="svg" src="assets/patterns/commercialman.svg" alt="team">
-              <h3 class="heading mergecolor">Walter T. Adams</h3>
-              <div class="subheadin seccolor">Commercial Department</div>
-              <div class="desc seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-              <a href="#" class="btn btn-default-yellow-fill mt-4">Contact</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="wrapper">
-            <div class="img-section">
-              <div class="soc-icons-wrap">
-                <div class="icons">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-google-plus-g"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
+              <div class="inform">
+                <div class="title">Go to Dedicated Server</div>
+                <div class="description seccolor">Need more power and resources?</div>
               </div>
-            </div>
-            <div class="team-info bg-colorstyle noshadow">
-              <img class="svg" src="assets/patterns/salesman.svg" alt="team">
-              <h3 class="heading mergecolor">Verna B. Ahmed</h3>
-              <div class="subheading seccolor">Sales Department</div>
-              <div class="desc seccolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-              <a href="#" class="btn btn-default-yellow-fill mt-4">Contact</a>
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-</!--section-->
+</section>
 
 <?php
 $extraJs = [];

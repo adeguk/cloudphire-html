@@ -1,12 +1,10 @@
 {
   "header": {
     "home": "Home",
-    "domain": "Domains",
-    "services": "Other Services",
-    "hosting": "Hosting & Security",
-    "website": "Website & Marketing",
+    "services": "Hosting",
+    "pages": "Pages",
+    "website": "Website",
     "security": "Security",
-    "combo": "Combo",
     "login": "Client Area"
   },
   "submenu": {
@@ -16,15 +14,11 @@
     "homeimage": "Home Image",
     "homevideo": "Home Video",
     "hosting": "Shared Hosting",
-    "linux.hosting": "Linux Shared Hosting",
-    "window.hosting": "Window Shared Hosting",
     "reseller": "Cloud Reseller",
     "dedicated": "Dedicated Servers",
     "vps": "Cloud VPS",
     "wordpress": "WordPress Hosting",
     "domains": "Domains Names",
-    "register.domain": "Register a Domain",
-    "transfer": "Transfer a Domain",
     "developer": "Developer Hosting",
     "ssl": "SSL Certificates",
     "email": "Enterprise Email",

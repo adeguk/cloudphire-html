@@ -15,31 +15,28 @@ include_once('inc/_header.php');
       <div class="col-sm-12 col-md-12">
         <div class="wrapper">
           <h1 class="heading">Shared Hosting</h1>
-          <h3 class="subheading col-sm-8">Blazing fast & stable hosting infrastructure</h3>
-          <div id="run-switch" class="run-switch">
-            <div class="mo">Monthly Price</div>
-            <div class="switch"></div>
-            <div class="an active">Anually Price</div>
-          </div>
+          <h3 class="subheading col-sm-8 pb-md-4">Blazing fast & stable hosting infrastructure. <br class="d-none d-md-block">
+              Get your Business Online in an Affordable way.
+          </h3>
           <div class="included">
             <h4 class="mb-3">All plans include</h4>
             <ul>
-              <li><i class="fas fa-check-circle"></i> c-Panel</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> c-Panel</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Unlimited email</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Unlimited email</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Free SSL certificate</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Free SSL certificate</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Redundant DNS</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Redundant DNS</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Powerful SSD</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Powerful SSD</li>
             </ul>
             <ul>
-              <li><i class="fas fa-check-circle"></i> Support 24/7/365</li>
+              <li><i class="fas fa-check-circle text-secondary"></i> Support 24/7/365</li>
             </ul>
           </div>
         </div>
@@ -81,7 +78,7 @@ include_once('inc/_header.php');
                 <small class="mergecolor">/</small><span class="period annually mergecolor">year</span>
               </div>
             </div>
-            <a href="http://inebur.com/whmcs/cart.php?a=add&pid=9&carttpl=antler" class="btn btn-default-yellow-fill">Order now</a>
+            <a href="#" class="btn btn-default-yellow-fill">Order now</a>
           </div>
           <ul class="list-info">
             <li><i class="icon-drives"></i> <span class="c-yellow">DISK</span><br> <span>250GB SSD</span></li>
@@ -112,7 +109,7 @@ include_once('inc/_header.php');
                 <small class="mergecolor">/</small><span class="period annually mergecolor">year</span>
               </div>
             </div>
-            <a href="http://inebur.com/whmcs/cart.php?a=add&pid=10&carttpl=antler" class="btn btn-default-yellow-fill">Order now</a>
+            <a href="#" class="btn btn-default-yellow-fill">Order now</a>
           </div>
           <ul class="list-info bg-purple">
             <li><i class="icon-drives"></i> <span class="c-yellow">DISK</span><br> <span>2TB SSD</span></li>

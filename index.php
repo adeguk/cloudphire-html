@@ -477,7 +477,8 @@ include_once('inc/_header.php');
 <!-- ***** PRICING TABLES - CAROUSEL ***** -->
 <section class="slick sec-normal sec-bg31 bg-colorstyle1">
   <div class="container">
-    <h2 class="section-heading text-white1 mergecolor">Popular Hosting Products</h2>
+    <h2 class="section-heading">Popular Hosting Products</h2>
+    <h3>Get your business online today - 99% uptime for rock-solid performance</h3>
   </div>
   <div id="slider">
     <div class="plan-container">
